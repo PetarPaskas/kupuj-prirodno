@@ -1,7 +1,7 @@
-import type { StoreCategoryItemType } from "../../../shared/types"
+import type { CategorySummaryItem } from "../../../shared/types"
 
 interface StoreCategoryItemProps{
-    item:StoreCategoryItemType
+    item:CategorySummaryItem
 }
 
 const StoreCategoryItem = ({item}:StoreCategoryItemProps)=>{

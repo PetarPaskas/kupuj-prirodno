@@ -1,6 +1,6 @@
-import type { StoreCategoryType } from "./types";
+import type { CategorySummary } from "./types";
 
-const getLocalStoreCategories = (): StoreCategoryType[]=>{
+const getLocalStoreCategories = (): CategorySummary[]=>{
     return [
     {
        categoryName:'Most popular',

@@ -1,10 +1,10 @@
-export type StoreCategoryType = {
+export type CategorySummary = {
     categoryName:string,
-    items:StoreCategoryItemType[],
+    items:CategorySummaryItem[],
     order:number
 }
 
-export type StoreCategoryItemType = {
+export type CategorySummaryItem = {
     id:string,
     iconLink:string,
     name:string
