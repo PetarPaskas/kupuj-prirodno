@@ -64,3 +64,23 @@ padding-bottom: 5px;
 .store_product_results{
 
 }
+
+.card{
+    display:flex;
+    flex-direction: column;
+}
+
+.card_header{
+    
+}
+.card_header__image{
+    
+}
+
+.card_body{
+    
+}
+
+.card_footer{
+    
+}
