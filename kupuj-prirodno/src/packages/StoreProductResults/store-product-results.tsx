@@ -1,12 +1,14 @@
-interface StoreProductResultsProps{
+import type { StoreSummary } from "../../shared/types"
+import StoreProductList from "./StoreProductList/store-product-list"
 
+interface StoreProductResultsProps{
+    stores:StoreSummary
 }
 
-const StoreProductResults = ({}:StoreProductResultsProps)=>{
-    return <div className="store_product_results">
-        <div className="store_product_list">
+const StoreProductResults = ({stores}:StoreProductResultsProps)=>{
 
-        </div>
+    return <div className="store_product_results">
+        <StoreProductList items={stores.items}/>
     </div>
 }
 

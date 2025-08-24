@@ -9,3 +9,14 @@ export type CategorySummaryItem = {
     iconLink:string,
     name:string
 }
+
+export type StoreSummary = {
+    items:StoreSummaryItem[]
+}
+
+export type StoreSummaryItem = {
+    id:string,
+    coverImage:string,
+    title:string,
+    shortDescription:string
+}

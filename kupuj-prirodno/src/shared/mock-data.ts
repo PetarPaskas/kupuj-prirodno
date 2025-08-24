@@ -1,4 +1,4 @@
-import type { CategorySummary } from "./types";
+import type { CategorySummary, StoreSummary } from "./types";
 
 const getLocalStoreCategories = (): CategorySummary[]=>{
     return [
@@ -57,6 +57,37 @@ const getLocalStoreCategories = (): CategorySummary[]=>{
 ];
 }
 
+
+const getLocalStores: ()=>StoreSummary = ()=>({
+    items:[
+        {
+            id:'store_1',
+            coverImage:'./src/assets/img/fruit.png',
+            title:'Rakic 1',
+            shortDescription:'kratak opis'
+        },
+        {
+            id:'store_2',
+            coverImage:'./src/assets/img/fruit.png',
+            title:'Rakic 2',
+            shortDescription:'kratak opis'
+        },
+        {
+            id:'store_3',
+            coverImage:'./src/assets/img/fruit.png',
+            title:'Rakic 3',
+            shortDescription:'kratak opis'
+        },
+                {
+            id:'store_4',
+            coverImage:'./src/assets/img/fruit.png',
+            title:'Rakic 4',
+            shortDescription:'kratak opis'
+        }
+    ]
+});
+
 export {
-    getLocalStoreCategories
+    getLocalStoreCategories,
+    getLocalStores
 };
