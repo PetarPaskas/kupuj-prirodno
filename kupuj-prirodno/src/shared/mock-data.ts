@@ -1,4 +1,4 @@
-import type { CategorySummary, StoreSummary } from "./types";
+import type { CategorySummary, ProductsInStore, StoreSummary } from "./types";
 
 const getLocalStoreCategories = (): CategorySummary[]=>{
     return [
@@ -87,7 +87,51 @@ const getLocalStores: ()=>StoreSummary = ()=>({
     ]
 });
 
+const getLocarStoreProductsByCategories: ()=>ProductsInStore = ()=>{
+    return [
+        {
+            category:{
+                id:'cat_1',
+                iconLink:'',
+                name:'Bobice'
+            },
+            products:[{
+                id:'bobice_1',
+                categoryId:'cat_1',
+                coverImage:'./src/assets/img/fruit.png',
+                name:'Maline',
+                description:'Moje drage maline',
+                price:'800 rsd/kg'
+            }]
+        },
+        {
+            category:{
+                id:'cat_2',
+                iconLink:'',
+                name:'Meso'
+            },
+            products:[{
+                id:'meso_1',
+                categoryId:'cat_2',
+                coverImage:'./src/assets/img/fruit.png',
+                name:'Mleveno svinjsko',
+                description:'Moje drago mleveno meso',
+                price:'1000 rsd/kg'
+            },
+            {
+                id:'meso_2',
+                categoryId:'cat_2',
+                coverImage:'./src/assets/img/fruit.png',
+                name:'Mleveno telece',
+                description:'Moje drago telece meso',
+                price:'1500 rsd/kg'
+            }]
+        }
+    ]
+}
 export {
     getLocalStoreCategories,
-    getLocalStores
+    getLocalStores,
+
+    getLocarStoreProductsByCategories
 };

@@ -20,3 +20,19 @@ export type StoreSummaryItem = {
     title:string,
     shortDescription:string
 }
+
+export type ProductsInStore = ProductByCategory[]
+
+export type ProductByCategory = {
+    category: CategorySummaryItem,
+    products:ProductSummaryItem[]
+}
+
+export type ProductSummaryItem = {
+    id:string,
+    categoryId:string,
+    coverImage:string,
+    name:string,
+    description:string
+    price:string
+}

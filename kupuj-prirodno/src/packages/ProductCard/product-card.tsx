@@ -2,23 +2,23 @@ import Card from "../../shared/card/card";
 import CardBody from "../../shared/card/CardBody/card-body";
 import CardHeader from "../../shared/card/CardHeader/card-header";
 import CardHeaderImageCover from "../../shared/card/CardHeaderImageCover/card-header-image-cover";
-import type { StoreSummaryItem } from "../../shared/types";
-import StoreDescription from "./StoreDescription/store-description";
+import type { ProductSummaryItem } from "../../shared/types";
+import ProductDescription from "./ProductDescription/product-description";
 
-interface StoreCardProps{
-    store:StoreSummaryItem
+interface ProductCardProps{
+    product:ProductSummaryItem
 }
 
-const StoreCard = ({store}:StoreCardProps)=>{
+const ProductCard = ({product}:ProductCardProps)=>{
     
     return <Card>
         <CardHeader>
-            <CardHeaderImageCover src={store.coverImage}/>
+            <CardHeaderImageCover src={product.coverImage}/>
         </CardHeader>
         <CardBody>
-            <StoreDescription store={store}/>
+            <ProductDescription product={product}/>
         </CardBody>
     </Card>
 }
 
-export default StoreCard;
+export default ProductCard;

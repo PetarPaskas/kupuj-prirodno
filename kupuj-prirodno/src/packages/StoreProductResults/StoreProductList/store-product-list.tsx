@@ -1,5 +1,6 @@
 import GridListContainer from "../../../shared/GridList/grid-list";
 import GridListItem from "../../../shared/GridList/GridListItem/grid-list-item";
+import SectionTitle from "../../../shared/SectionTitle/section-title";
 import type { StoreSummaryItem } from "../../../shared/types";
 import StoreCard from "../../StoreCard/store-card";
 
@@ -18,6 +19,7 @@ const StoreProductList = ({items}:StoreProductListProps)=>{
         }
 
     return <div className="store_product_list">
+        <SectionTitle>All products</SectionTitle>
         <GridListContainer>
             {renderStores()}
         </GridListContainer>

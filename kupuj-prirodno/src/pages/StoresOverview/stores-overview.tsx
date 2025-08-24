@@ -5,12 +5,13 @@ import { getLocalStoreCategories, getLocalStores } from "../../shared/mock-data"
 interface StoresOverviewProps{
 
 }
+
 const StoresOverview = ({}:StoresOverviewProps)=>{
     const storecategories = getLocalStoreCategories();
     const stores = getLocalStores();
     
-    return <div>
-        <div className="content_center">
+    return <div className="content_center">
+        <div className="stores_overview">
             <StoreCategories 
                 categories={storecategories}
             />
