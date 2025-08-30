@@ -5,8 +5,8 @@ import StoresOverview from './pages/StoresOverview/stores-overview'
 function App() {
 
   return (
-    // <StoresOverview/>
-    <ProductsOverview/>
+    <StoresOverview/>
+     //<ProductsOverview/>
   )
 }
 
