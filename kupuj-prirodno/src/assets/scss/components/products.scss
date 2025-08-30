@@ -1,0 +1,8 @@
+.products{
+
+    &__section{
+        &:not(:first-child){
+            padding-top:2rem;
+        }
+    }
+}

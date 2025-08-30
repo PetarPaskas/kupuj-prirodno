@@ -1,0 +1,11 @@
+.store_product_results{
+    flex-grow:1;
+    margin-left:20px;
+}
+
+.store_product_list{
+
+    &:not(:first-child){
+        margin-top:4rem;
+    }
+}
