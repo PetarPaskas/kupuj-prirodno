@@ -5,11 +5,11 @@ interface CategoryOptionProps{
 }
 
 const CategoryOption = ({item}:CategoryOptionProps)=>{
-    return <div className="category_item">
-        <div className="category_item__icon">
+    return <div className="category_options__category_item">
+        <div className="category_options__category_item_icon">
             <span>{item.iconLink}</span>
         </div>
-        <div className="category_item__name">
+        <div className="category_options__category_item_name">
             {item.name}
         </div>
     </div>

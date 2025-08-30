@@ -13,11 +13,11 @@ const CategoryOptionGroup = ({categorySummary}:CategoryOptionGroupProps)=>{
         </li>)
     });
 
-    return <div className="category">
-        <div className="category__title">
+    return <div className="category_options__category">
+        <div className="category_options__category_title">
             <span>{categorySummary.categoryName}</span>
         </div>
-        <ul className="category__items">
+        <ul className="category_options__category_items">
             {renderCategoryOptionItems()}
         </ul>
     </div>

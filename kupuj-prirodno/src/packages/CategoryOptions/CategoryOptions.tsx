@@ -12,7 +12,7 @@ const CategoryOptions = ({categories}:CategoryOptionsProps)=>{
     });
 
     return (
-    <div className="category_options">
+    <div className="category_options__container">
         {renderCategories()}
     </div>
     );
