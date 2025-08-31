@@ -1,4 +1,4 @@
-import type { CategorySummary, ProductsInStore, StoreSummary } from "./types";
+import type { CategorySummary, ProductsInStore, ProductSummaryItem, StoreSummary, StoreSummaryItem } from "./types";
 
 const getLocalStoreCategories = (): CategorySummary[]=>{
     return [
@@ -129,6 +129,7 @@ const getLocarStoreProductsByCategories: ()=>ProductsInStore = ()=>{
         }
     ]
 }
+
 export {
     getLocalStoreCategories,
     getLocalStores,

@@ -4,7 +4,7 @@ interface BasketCheckoutProps{
 }
 
 const BasketCheckout = ({}:BasketCheckoutProps)=>{
-    return <div>
+    return <div className="order_basket__checkout">
         checkout
     </div>
 }

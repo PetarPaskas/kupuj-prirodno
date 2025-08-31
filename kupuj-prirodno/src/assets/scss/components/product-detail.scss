@@ -1,30 +1,37 @@
-.product_detail{
-    display: flex;
-    align-items: start;
-    margin-right: auto;
-
-    &__icon{
-        width: 60px;
-        height: 30px;
-        border:1px solid red;
+.product{
+    &_detail_with_quantity{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
-
-    &__detail{
+    &_detail{
         display: flex;
-        flex-direction: column;
-        justify-content: start;
-    }
+        align-items: start;
+        margin-right: auto;
 
-    &__name{
-        font-size: 1.4rem;
-        font-weight: 600;
-    }
-    &__price_per_unit{
-        font-size: 1rem;
-        margin-bottom: 1rem;
-    }
-    &__price_total{
-        font-size: 1.2rem;
-        font-weight: 600;
+        &__icon{
+            width: 60px;
+            height: 30px;
+            border:1px solid red;
+        }
+
+        &__detail{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+
+        &__name{
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        &__price_per_unit{
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        &__price_total{
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
     }
 }

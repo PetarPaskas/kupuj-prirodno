@@ -1,0 +1,29 @@
+.quantity_stepper{
+    color:inherit;
+    display:inline-block;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &>*:not(:last-child){
+        margin-right: .6rem;
+    }
+
+    &__value{
+        border-radius:2rem;
+        padding:.5rem 1.6rem;
+        font-size:1.4rem;
+        border:1px solid var(--skyblue);
+    }
+
+    &__increase_step,
+    &__decrease_step{
+        background-color: transparent;
+        display:inline-block;
+        outline:none;
+        color:inherit;
+        padding:.5rem 1rem;
+        border-radius: 50%;
+        border:1px solid var(--skyblue);
+    }
+}
