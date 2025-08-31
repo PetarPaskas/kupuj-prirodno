@@ -1,0 +1,13 @@
+.button{
+    border:none;
+    outline: none;
+    background: transparent;
+    color:inherit;
+}
+
+.text_button{
+    border:1px solid var(--skyblue);
+    padding:.8rem 1.8rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+}

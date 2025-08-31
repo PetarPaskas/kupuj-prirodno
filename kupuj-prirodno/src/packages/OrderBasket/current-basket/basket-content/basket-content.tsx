@@ -5,7 +5,7 @@ interface BasketContentProps{
 }
 
 const BasketContent = ({}:BasketContentProps)=>{
-    return <div>
+    return <div className="order_basket__content">
         basket content
         <StoreProductGroup />
     </div>
