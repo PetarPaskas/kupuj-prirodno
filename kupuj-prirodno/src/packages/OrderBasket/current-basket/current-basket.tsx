@@ -1,5 +1,5 @@
 import BasketCheckout from "./basket-checkout/basket-checkout";
-import BasketContent from "./basket-content/basket-content";
+import BasketShoppingCart from "./basket-shopping-cart/basket-shopping-cart";
 
 interface CurrentBasketProps{
 
@@ -7,7 +7,7 @@ interface CurrentBasketProps{
 
 const CurrentBasket = ({}:CurrentBasketProps)=>{
     return <>
-        <BasketContent />
+        <BasketShoppingCart />
         <BasketCheckout />
     </>;
 }

@@ -41,8 +41,46 @@
         }
     }
 
-    &__content{
+    &__shopping_cart{
 
+        &_item{
+
+        }
+    }
+
+    &__history_cart{
+        
+        &_item{
+
+        }
+
+        & .store_product_group__items{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border-top:1px solid var(--skyblue);
+            padding:2rem 1rem;
+        }
+
+        & .store_product_group__item{
+            border-top:none;
+
+            &:not(:last-child){
+                margin-bottom: 0rem;
+                margin-right: 1.2rem;
+            }
+        }
+
+        &_text_total{
+            font-weight: 600;
+            display:block;
+            font-size:1.8rem;
+            padding-left:1.4rem;
+        }
+
+        & .space_between__row{
+            margin-top:2rem;
+        }
     }
 
     &__checkout{

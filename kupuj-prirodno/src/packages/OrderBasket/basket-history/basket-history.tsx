@@ -1,10 +1,12 @@
+import BasketHistoryItem from "./basket-history-item/basket-history-item";
+
 interface BasketHistoryProps{
 
 }
 
 const BasketHistory = ({}:BasketHistoryProps)=>{
-    return <div>
-        Basket History
+    return <div className="order_basket__history_cart">
+        <BasketHistoryItem/>
     </div>
 }
 
