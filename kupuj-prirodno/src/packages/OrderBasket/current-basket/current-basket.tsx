@@ -6,10 +6,10 @@ interface CurrentBasketProps{
 }
 
 const CurrentBasket = ({}:CurrentBasketProps)=>{
-    return <div>
+    return <>
         <BasketContent />
         <BasketCheckout />
-    </div>
+    </>;
 }
 
 export default CurrentBasket;
