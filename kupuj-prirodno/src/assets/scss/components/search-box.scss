@@ -1,0 +1,44 @@
+.searchbox{
+  position: relative;
+  display: block;
+  text-align: center;
+
+  &__search{
+    font-size: 16px;
+    border: 2px solid var(--skyblue);
+    display: inline-block;
+    width: 80%;
+    background: transparent;
+    border-radius: 20px;
+    padding:1rem 2rem;
+
+    &:focus{
+        outline: 1px solid #ddd;
+    }
+    
+  }
+
+  &__options{
+        background-color: #f6f6f6;
+        border: 1px solid #ddd;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        position: absolute;
+        z-index: 5;
+        visibility: hidden;
+  }
+
+  &__option{
+        font-size: inherit;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+
+        &:hover{
+            background-color: #f1f1f1
+        }
+  }
+}

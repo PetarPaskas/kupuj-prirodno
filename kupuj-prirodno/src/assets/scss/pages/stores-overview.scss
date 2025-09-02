@@ -1,4 +1,15 @@
 .stores_overview{
     display: flex;
     flex-direction: row;
+
+    &__left_side{
+
+    }
+
+    &__main{
+        flex-grow: 1;
+        &>*:not(:last-child){
+            margin-bottom: 2rem;
+        }
+    }
 }

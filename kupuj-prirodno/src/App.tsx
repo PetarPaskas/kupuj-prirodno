@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-     {/* <StoresOverview/> */}
+     {<StoresOverview/>}
      {/* //<ProductsOverview/> */}
-     <OrderBasket/>
+     {/* <OrderBasket/> */}
     </>
 
   )
