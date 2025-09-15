@@ -12,6 +12,15 @@
     }
 
     &__row{
+        display:flex;
+        flex-direction: row;
+        &>*{
+            flex-grow: 1;
+        }
+
+        &>*:not(:first-child){
+            margin-left:4rem;
+        }
         &:not(:first-child){
             margin-top:1rem;
         }
