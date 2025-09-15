@@ -8,6 +8,14 @@
     }
 
     &__basic{
-        
+
+    }
+
+    & .text_input{
+        display: block;
+
+        &__input{
+            width: 100%;
+        }
     }
 }
