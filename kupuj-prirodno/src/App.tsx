@@ -7,9 +7,10 @@ function App() {
 
   return (
     <>
-     {<StoresOverview/>}
-     {/* //<ProductsOverview/> */}
-     {/* <OrderBasket/> */}
+     {/* <StoresOverview/>
+     <ProductsOverview/> 
+     <OrderBasket/> */}
+          <ProductsOverview/> 
     </>
 
   )

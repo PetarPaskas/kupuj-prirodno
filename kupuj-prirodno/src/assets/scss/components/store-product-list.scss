@@ -8,4 +8,8 @@
     &:not(:first-child){
         margin-top:4rem;
     }
+
+    & .section_title{
+        margin-bottom: 1rem;
+    }
 }
