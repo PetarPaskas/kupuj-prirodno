@@ -11,13 +11,13 @@ const ProductsOverview = ({}:ProductsOverviewProps)=>{
     const storecategories = getLocalStoreCategories();
     
     return <div className="content_center">
-        <div className="products_overview">
-            <div className="products_overview__left_side">
+        <div className="products_overview track">
+            <div className="products_overview__left_side track__left">
                 <CategoryOptions 
                     categories={storecategories}
                 />
             </div>
-            <div className="products_overview__main">
+            <div className="products_overview__main track__main">
                 <SearchBox/>
                 <ProductsInStoreList 
                     categorizedStoreProducts={categorizedStoreProducts}

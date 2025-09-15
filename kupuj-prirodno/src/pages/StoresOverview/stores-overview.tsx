@@ -12,13 +12,13 @@ const StoresOverview = ({}:StoresOverviewProps)=>{
     const stores = getLocalStores();
     
     return <div className="content_center">
-        <div className="stores_overview">
-            <div className="stores_overview__left_side">
+        <div className="stores_overview track">
+            <div className="stores_overview__left_side track__left">
                 <CategoryOptions 
                     categories={storecategories}
                 />
             </div>
-            <div className="stores_overview__main">
+            <div className="stores_overview__main track__main">
                 <SearchBox/>
                 <StoreProductResults
                     stores={stores}

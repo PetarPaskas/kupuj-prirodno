@@ -1,0 +1,13 @@
+.track{
+    display: flex;
+    flex-direction: row;
+    &__left{
+
+    }
+    &__main{
+        flex-grow: 1;
+        &>*:not(:last-child){
+            margin-bottom: 2rem;
+        }
+    }
+}
