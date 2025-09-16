@@ -12,9 +12,14 @@
     }
 
     &__contact{
-        
+
     }
 
+    &__delivery_support{
+        & .checkbox{
+        }
+    }
+    
     & .text_input{
         display: block;
 

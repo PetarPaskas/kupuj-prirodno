@@ -1,6 +1,10 @@
 .checkbox{
     display: inline-block;
+    text-align: center;
 
+    &__checkbox_group{
+        display: inline-block;
+    }
     &__label{
         display: inline-block;
         padding:1rem;
@@ -32,5 +36,12 @@
                 visibility: visible;
             }
         }
+    }
+
+    &__title{
+        font-size: 1.8rem;
+        padding-bottom: .5rem;
+        display: block;
+        width: 100%;
     }
 }

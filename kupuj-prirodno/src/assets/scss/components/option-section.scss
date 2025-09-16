@@ -9,17 +9,34 @@
         border-bottom: 1px solid var(--skyblue);
         font-size: 2.4rem;
         padding-bottom: 1rem;
+        flex:0 0 100%;
     }
 
     &__row{
         display:flex;
         flex-direction: row;
+        justify-content: space-between;
+        &.flex-start{
+            justify-content: flex-start;
+        }
+        & .flex-1{
+           flex:0 0 100%;
+        }
+        & .flex-2{
+            flex:0 0 45%;
+        }
+        & .flex-6{
+            flex:0 0 10%;
+        }
         &>*{
-            flex-grow: 1;
+            flex:0 0 45%;
+        }
+        &>.option_section__title{
+            flex:0 0 100%;
         }
 
         &>*:not(:first-child){
-            margin-left:4rem;
+            margin-left:2rem;
         }
         &:not(:first-child){
             margin-top:1rem;

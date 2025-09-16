@@ -1,8 +1,10 @@
 interface OptionSectionRowProps {
+    className?:string,
     children: React.ReactNode 
 }
-const OptionSectionRow = ({children}:OptionSectionRowProps)=>{
-    return <div className="option_section__row">
+const OptionSectionRow = ({children, className=''}:OptionSectionRowProps)=>{
+    const classFull = `option_section__row ${className}`;
+    return <div className={classFull}>
         {children}
     </div>
 }
