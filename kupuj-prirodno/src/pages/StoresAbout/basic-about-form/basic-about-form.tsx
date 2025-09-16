@@ -1,3 +1,4 @@
+import Checkbox from "../../../shared/checkbox/checkbox";
 import OptionSection from "../../../shared/option-section/option-section";
 import OptionSectionRow from "../../../shared/option-section/option-section-row/option-section-row";
 import OptionSectionTitle from "../../../shared/option-section/option-section-title/option-section-title";

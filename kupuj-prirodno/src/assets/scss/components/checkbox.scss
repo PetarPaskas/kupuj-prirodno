@@ -1,0 +1,36 @@
+.checkbox{
+    display: inline-block;
+
+    &__label{
+        display: inline-block;
+        padding:1rem;
+        border: 1px solid var(--skyblue);
+        border-radius: .5rem;
+        position:relative;
+
+        &:hover{
+            cursor: pointer;
+        }
+        &::after{
+            content:'';
+            display: inline-block;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            background-color: var(--skyblue);
+            border-radius: 1px;
+            padding:.5rem;
+            visibility: hidden;
+        }
+    }
+
+    &__input{
+        visibility: hidden;
+        &:checked{
+            & + .checkbox__label::after{
+                visibility: visible;
+            }
+        }
+    }
+}
