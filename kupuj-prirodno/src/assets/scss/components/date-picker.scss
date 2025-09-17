@@ -1,0 +1,20 @@
+.date_picker{
+    &__label{
+        display: block;
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+        padding-left: 0.5rem;
+        font-weight: 500;
+    }
+    &__input{
+        background:transparent;
+        border: 1px solid var(--skyblue);
+        border-radius: 2rem;
+        color:rgb(184, 184, 184);
+        outline:none;
+        padding:1rem 2rem;
+        color-scheme: dark;
+        display: inline-block;
+        width: 100%;
+    }
+}

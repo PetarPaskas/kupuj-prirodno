@@ -12,6 +12,13 @@
         flex:0 0 100%;
     }
 
+    &__group{
+        border:1px solid var(--skyblue);
+        padding:1rem;
+        margin-top:1rem;
+        border-radius: 2rem;
+    }
+
     &__row{
         display:flex;
         flex-direction: row;
@@ -24,6 +31,12 @@
         }
         & .flex-2{
             flex:0 0 45%;
+        }
+        & .flex-3{
+            flex:0 0 30%;
+        }
+        & .flex-5{
+            flex:0 0 20%;
         }
         & .flex-6{
             flex:0 0 10%;
