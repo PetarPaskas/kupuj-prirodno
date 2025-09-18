@@ -4,6 +4,7 @@
     padding: 1rem 2rem;
     border:1px solid var(--skyblue);
     border-radius: 2rem;
+    padding-bottom: 3rem;
 
     &__title{
         border-bottom: 1px solid var(--skyblue);
@@ -52,7 +53,7 @@
             margin-left:2rem;
         }
         &:not(:first-child){
-            margin-top:1rem;
+            margin-top:2rem;
         }
     }
 }

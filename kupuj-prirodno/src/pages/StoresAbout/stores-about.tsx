@@ -1,3 +1,4 @@
+import AwardsAboutForm from "./awards-about-form/awards-about-form";
 import BasicAboutForm from "./basic-about-form/basic-about-form";
 import CertificatesAboutForm from "./certificates-about-form/certificates-about-form";
 import ContactAboutForm from "./contact-about-form/contact-about-form";
@@ -19,6 +20,7 @@ const StoresAbout = ({}:StoresAboutProps)=>{
                 <GalleryAboutForm/>
                 <DeliverySupportForm/>
                 <ContactAboutForm/>
+                <AwardsAboutForm/>
                 <CertificatesAboutForm/>
             </div>
         </div>
