@@ -4,7 +4,7 @@ interface TextButtonProps{
     onClick?:(e:React.MouseEvent<HTMLButtonElement, MouseEvent>)=>void
 }
 
-const TextButton = ({children, className, onClick}:TextButtonProps)=>{
+const TextButton = ({children, onClick, className=''}:TextButtonProps)=>{
 
     const handleClickEvent = (event:React.MouseEvent<HTMLButtonElement, MouseEvent>)=>{
         if(onClick){
