@@ -3,11 +3,12 @@ interface TextInputProps{
     placeholder:string
     value?:string,
     name?:string,
-    ref?:React.Ref<HTMLInputElement>
+    ref?:React.Ref<HTMLInputElement>,
+    className?:string
 }
 
-const TextInput = ({label, placeholder, value, name, ref}:TextInputProps)=>{
-    return <div className="text_input">
+const TextInput = ({label, placeholder, value, name, ref, className=""}:TextInputProps)=>{
+    return <div className={`text_input ${className}`}>
         <label>
             <span className="text_input__label">{label}</span>
             <input ref={ref}

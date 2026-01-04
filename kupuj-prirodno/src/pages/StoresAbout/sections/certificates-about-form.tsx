@@ -2,10 +2,10 @@ import { useState } from "react";
 import AddImageButton from "../../../shared/add-image-button/add-image-button";
 import DatePicker from "../../../shared/date-picker/date-picker";
 import OptionSection from "../../../shared/option-section/option-section";
-import OptionSectionGroup from "../../../shared/option-section/option-section-group/option-section-group";
-import OptionSectionRow from "../../../shared/option-section/option-section-row/option-section-row";
-import OptionSectionTitle from "../../../shared/option-section/option-section-title/option-section-title";
-import TextButton from "../../../shared/text-button/Button";
+import OptionSectionGroup from "../../../shared/option-section/option-section-group";
+import OptionSectionRow from "../../../shared/option-section/option-section-row";
+import OptionSectionTitle from "../../../shared/option-section/option-section-title";
+import TextButton from "../../../shared/text-button/text-button";
 import TextInput from "../../../shared/text-input/text-input";
 
 interface CertificatesAboutFormProps{

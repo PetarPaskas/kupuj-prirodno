@@ -1,6 +1,6 @@
 import ProductDetailIcon from "../../../../shared/product-detail-icon/product-detail-icon";
 import SpaceBetweenColumn from "../../../../shared/space-between-column/space-between-column";
-import SpaceBetweenRow from "../../../../shared/space-between-column/space-between-row/space-between-row";
+import SpaceBetweenRow from "../../../../shared/space-between-column/space-between-row";
 import StoreProductGroup from "../../../../shared/store-product-group/store-product-group";
 import StoreProductGroupBody from "../../../../shared/store-product-group/store-product-group-body/store-product-group-body";
 import StoreProductGroupFooter from "../../../../shared/store-product-group/store-product-group-footer/store-product-group-footer";
@@ -8,7 +8,7 @@ import StoreProductGroupHeader from "../../../../shared/store-product-group/stor
 import StoreProductGroupItems from "../../../../shared/store-product-group/store-product-group-items/store-product-group-items";
 import StoreProductGroupLogo from "../../../../shared/store-product-group/store-product-group-logo/store-product-group-logo";
 import StoreProductGroupTitle from "../../../../shared/store-product-group/store-product-group-title/store-product-group-title";
-import TextButton from "../../../../shared/text-button/Button";
+import TextButton from "../../../../shared/text-button/text-button";
 import OrderBasketText from "../../current-basket/order-basket-text/order-basket-text";
 
 interface BasketHistoryItemProps{

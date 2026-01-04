@@ -1,4 +1,4 @@
-import ProductDetail from "./product-detail/product-detail";
+import ProductDetail from "./product-detail";
 import QuantityStepper from "../quantity-stepper/quantity-stepper";
 
 interface ProductDetailWitQuantityProps{

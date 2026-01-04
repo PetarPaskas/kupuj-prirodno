@@ -1,6 +1,7 @@
+
 interface OptionSectionRowProps {
     className?:string,
-    children: React.ReactNode 
+    children: React.ReactNode,
 }
 const OptionSectionRow = ({children, className=''}:OptionSectionRowProps)=>{
     const classFull = `option_section__row ${className}`;

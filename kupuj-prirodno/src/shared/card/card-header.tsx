@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import type { CardHeaderImageCoverProps } from "../CardHeaderImageCover/card-header-image-cover";
+import type { CardHeaderImageCoverProps } from "../card-header-image-cover";
 
 export interface CardHeaderProps {
     children?:AllowedChildren | AllowedChildren[]

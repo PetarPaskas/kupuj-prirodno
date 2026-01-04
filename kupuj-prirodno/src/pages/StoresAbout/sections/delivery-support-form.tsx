@@ -1,9 +1,9 @@
 import Checkbox from "../../../shared/checkbox/checkbox";
 import GridListContainer from "../../../shared/GridList/grid-list";
-import GridListItem from "../../../shared/GridList/GridListItem/grid-list-item";
+import GridListItem from "../../../shared/GridList/grid-list-item";
 import OptionSection from "../../../shared/option-section/option-section";
-import OptionSectionRow from "../../../shared/option-section/option-section-row/option-section-row";
-import OptionSectionTitle from "../../../shared/option-section/option-section-title/option-section-title";
+import OptionSectionRow from "../../../shared/option-section/option-section-row";
+import OptionSectionTitle from "../../../shared/option-section/option-section-title";
 import TextInput from "../../../shared/text-input/text-input";
 
 interface DeliverySupportFormProps{

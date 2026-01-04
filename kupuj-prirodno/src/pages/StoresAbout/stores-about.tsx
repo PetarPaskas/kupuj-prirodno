@@ -1,9 +1,11 @@
-import AwardsAboutForm from "./awards-about-form/awards-about-form";
-import BasicAboutForm from "./basic-about-form/basic-about-form";
-import CertificatesAboutForm from "./certificates-about-form/certificates-about-form";
-import ContactAboutForm from "./contact-about-form/contact-about-form";
-import DeliverySupportForm from "./delivery-support-form/delivery-support-form";
-import GalleryAboutForm from "./gallery-about-form/gallery-about-form";
+import AddressForm from "./sections/address-form";
+import AwardsAboutForm from "./sections/awards-about-form";
+import BasicAboutForm from "./sections/basic-about-form";
+import CertificatesAboutForm from "./sections/certificates-about-form";
+import ContactAboutForm from "./sections/contact-about-form";
+import DeliverySupportForm from "./sections/delivery-support-form";
+import GalleryAboutForm from "./sections/gallery-about-form";
+import LogoAboutForm from "./sections/logo-about-form";
 
 interface StoresAboutProps {
 
@@ -13,7 +15,8 @@ const StoresAbout = ({}:StoresAboutProps)=>{
         Stores About
         <div className="stores_about track">
             <div className="track__left">
-        
+                <LogoAboutForm/>
+                <AddressForm/>
             </div>
             <div className="track__main">
                 <BasicAboutForm/>

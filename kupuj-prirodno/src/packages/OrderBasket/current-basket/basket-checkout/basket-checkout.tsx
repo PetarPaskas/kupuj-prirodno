@@ -1,6 +1,6 @@
 import SpaceBetweenColumn from "../../../../shared/space-between-column/space-between-column";
-import SpaceBetweenRow from "../../../../shared/space-between-column/space-between-row/space-between-row";
-import TextButton from "../../../../shared/text-button/Button";
+import SpaceBetweenRow from "../../../../shared/space-between-column/space-between-row";
+import TextButton from "../../../../shared/text-button/text-button";
 import OrderBasketText from "../order-basket-text/order-basket-text";
 
 interface BasketCheckoutProps{

@@ -1,4 +1,4 @@
-import type { SpaceBetweenRowProps } from "./space-between-row/space-between-row";
+import type { SpaceBetweenRowProps } from "./space-between-row";
 
 interface SpaceBetweenColumnProps{
     children?:AllowedChildren | AllowedChildren[]

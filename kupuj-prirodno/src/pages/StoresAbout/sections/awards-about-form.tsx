@@ -1,12 +1,12 @@
 import { useState } from "react";
 import OptionSection from "../../../shared/option-section/option-section";
-import OptionSectionRow from "../../../shared/option-section/option-section-row/option-section-row";
-import OptionSectionTitle from "../../../shared/option-section/option-section-title/option-section-title";
-import OptionSectionGroup from "../../../shared/option-section/option-section-group/option-section-group";
+import OptionSectionRow from "../../../shared/option-section/option-section-row";
+import OptionSectionTitle from "../../../shared/option-section/option-section-title";
+import OptionSectionGroup from "../../../shared/option-section/option-section-group";
 import TextInput from "../../../shared/text-input/text-input";
 import DatePicker from "../../../shared/date-picker/date-picker";
 import AddImageButton from "../../../shared/add-image-button/add-image-button";
-import TextButton from "../../../shared/text-button/Button";
+import TextButton from "../../../shared/text-button/text-button";
 
 interface AwardsAboutFormProps{
     

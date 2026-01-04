@@ -1,6 +1,6 @@
 import { createPortal } from "react-dom";
 import ModalBackdrop from "../modal-backdrop/modal-backdrop";
-import SideDrawerFrame from "./side-drawer-frame/side-drawer-frame";
+import SideDrawerFrame from "./side-drawer-frame";
 
 interface SideDrawerModalProps{
     title:string,

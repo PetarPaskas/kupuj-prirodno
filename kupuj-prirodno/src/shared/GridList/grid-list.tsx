@@ -1,5 +1,5 @@
 import type { ReactElement } from "react"
-import type { GridListItemProps } from "./GridListItem/grid-list-item";
+import type { GridListItemProps } from "./grid-list-item";
 
 interface GridListProps{
     children:AllowedChildren | AllowedChildren[]

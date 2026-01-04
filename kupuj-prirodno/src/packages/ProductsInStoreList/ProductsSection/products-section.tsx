@@ -1,5 +1,5 @@
 import GridListContainer from "../../../shared/GridList/grid-list";
-import GridListItem from "../../../shared/GridList/GridListItem/grid-list-item";
+import GridListItem from "../../../shared/GridList/grid-list-item";
 import SectionTitle from "../../../shared/SectionTitle/section-title";
 import type { ProductByCategory } from "../../../shared/types";
 import ProductCard from "../../ProductCard/product-card";

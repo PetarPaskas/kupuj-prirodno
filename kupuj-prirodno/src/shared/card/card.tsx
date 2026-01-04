@@ -1,7 +1,7 @@
 import type { ReactElement } from "react";
-import { type CardBodyProps } from "./CardBody/card-body";
-import { type CardFooterProps } from "./CardFooter/card-footer";
-import { type CardHeaderProps } from "./CardHeader/card-header";
+import { type CardBodyProps } from "./card-body";
+import { type CardFooterProps } from "./card-footer";
+import { type CardHeaderProps } from "./card-header";
 
 interface CardProps{
     children: AllowedChildren | AllowedChildren[]

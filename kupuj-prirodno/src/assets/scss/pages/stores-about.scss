@@ -1,6 +1,9 @@
 .stores_about{
     & .track__left{
-
+        margin-right: 3rem;
+        &>*{
+            margin-bottom: 2rem;
+        }
     }
 
     & .track__main{

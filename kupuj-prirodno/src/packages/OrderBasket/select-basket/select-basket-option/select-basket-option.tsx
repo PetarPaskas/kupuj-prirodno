@@ -1,4 +1,4 @@
-import TextButton from "../../../../shared/text-button/Button";
+import TextButton from "../../../../shared/text-button/text-button";
 
 export interface SelectBasketOptionProps{
     children?:React.ReactNode,
