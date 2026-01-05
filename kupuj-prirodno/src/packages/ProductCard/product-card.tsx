@@ -1,6 +1,6 @@
 import Card from "../../shared/card/card";
 import CardBody from "../../shared/card/card-body";
-import CardHeader from "../../shared/card/CardHeader/card-header";
+import CardHeader from "../../shared/card/card-header";
 import CardHeaderImageCover from "../../shared/card/card-header-image-cover";
 import type { ProductSummaryItem } from "../../shared/types";
 import ProductDescription from "./ProductDescription/product-description";
