@@ -1,3 +1,4 @@
+import LocationPicker from "../../../shared/location-picker/location-picker";
 import OptionSection from "../../../shared/option-section/option-section";
 import OptionSectionRow from "../../../shared/option-section/option-section-row";
 import OptionSectionTitle from "../../../shared/option-section/option-section-title";
@@ -22,6 +23,9 @@ const AddressForm = ()=>{
                     label="Mesto"
                     placeholder="Mesto"
                     />
+            </OptionSectionRow>
+            <OptionSectionRow>
+                <LocationPicker onLocationChange={(x)=>console.log(x)} className="flex-1" />
             </OptionSectionRow>
         </OptionSection>
     </div>
