@@ -2,13 +2,17 @@ import { useRef } from "react";
 import FileUploadContainer, { type FileUploadControls, type SavedFile } from "../file-upload-container/file-upload-container";
 
 interface AddImageFormProps {
+    onFileSaved?:(files:SavedFile[])=>void;
     className?:string
 }
 
-const AddImageButton = ({className}:AddImageFormProps)=>{
+const AddImageButton = ({className, onFileSaved}:AddImageFormProps)=>{
     const files = useRef<FileUploadControls>(null);
 
-    const onFilesSaved = (file:SavedFile[])=>{
+    const handleFileSaved = (file:SavedFile[])=>{
+        if(onFileSaved){
+            onFileSaved(file);
+        }
         console.log("Saved file: ", file);
     }
     const onUnableToSave = (obj:any)=>{
@@ -17,7 +21,7 @@ const AddImageButton = ({className}:AddImageFormProps)=>{
     
     return <FileUploadContainer 
         ref={files}
-        onFilesSaved={onFilesSaved}
+        onFilesSaved={handleFileSaved}
         onUnableToSave={onUnableToSave}
         className={className}
             >
